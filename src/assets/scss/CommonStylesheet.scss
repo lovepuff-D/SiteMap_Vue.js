@@ -1,0 +1,29 @@
+.btn-user {
+  border: 1px solid black;
+  
+  padding: 13px;
+  background-color: white;
+  
+  font-size: 16px;
+  font-weight: 600;
+  
+  transition: color .3s, background-color .3s;
+  
+  &:hover {
+    color: white;
+    border-color: white;
+    background-color: black;
+  }
+}
+
+.btn-user_revers {
+  border: 1px solid white;
+  
+  background-color: black;
+  color: white;
+  
+  &:hover {
+    border-color: black;
+	background-color: #f60;
+  }
+}
